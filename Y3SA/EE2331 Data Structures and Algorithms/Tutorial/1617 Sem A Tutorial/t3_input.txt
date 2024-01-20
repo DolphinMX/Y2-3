@@ -1,0 +1,39 @@
+5
+5 12
+1 3 5 4 6
+4 0
+10 20 0 40
+4 5
+10 20 0 40
+7 46
+5 7 9 22 15 92 8
+1 1
+1
+
+================================================================================
+
+Input:
+The first line of input contains an integer T denoting the number of test cases.
+The first line of each test case is n and a product p.
+The second line of each test case contains n numbers of a[].
+
+Output:
+Case 0
+Naive Answer: Yes
+Smart Answer: Yes
+
+Case 1
+Naive Answer: Yes
+Smart Answer: Yes
+
+Case 2
+Naive Answer: No
+Smart Answer: No
+
+Case 3
+Naive Answer: No
+Smart Answer: No
+
+Case 4
+Naive Answer: No
+Smart Answer: No

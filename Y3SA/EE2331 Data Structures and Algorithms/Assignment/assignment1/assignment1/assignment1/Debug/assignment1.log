@@ -1,0 +1,15 @@
+﻿Build started 31/10/2015 19:22:31.
+     1>Project "C:\Users\TszChung\Desktop\EE2331\assignment1\assignment1\assignment1\assignment1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\assignment_1.cpp
+         assignment_1.cpp
+     1>c:\users\tszchung\desktop\ee2331\assignment1\record.h(244): error C2601: 'operator <<' : local function definitions are illegal
+                 c:\users\tszchung\desktop\ee2331\assignment1\record.h(190): this line contains a '{' which has not yet been matched
+     1>c:\users\tszchung\desktop\ee2331\assignment1\assignment_1.cpp(22): error C2601: 'main' : local function definitions are illegal
+                 c:\users\tszchung\desktop\ee2331\assignment1\record.h(190): this line contains a '{' which has not yet been matched
+     1>c:\users\tszchung\desktop\ee2331\assignment1\assignment_1.cpp(58): fatal error C1075: end of file found before the left brace '{' at 'c:\users\tszchung\desktop\ee2331\assignment1\record.h(190)' was matched
+     1>Done Building Project "C:\Users\TszChung\Desktop\EE2331\assignment1\assignment1\assignment1\assignment1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.72

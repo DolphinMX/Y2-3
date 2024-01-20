@@ -1,0 +1,11 @@
+Moshe Zukerman, Long Jia, Timothy Neame, Gerhard J. Woeginger,
+A polynomially solvable special case of the unbounded knapsack problem,
+Operations Research Letters,
+Volume 29, Issue 1,
+2001,
+Pages 13-16,
+ISSN 0167-6377,
+https://doi.org/10.1016/S0167-6377(01)00076-1.
+(https://www.sciencedirect.com/science/article/pii/S0167637701000761)
+Abstract: We consider a special case of the unbounded knapsack problem that is characterized by a set of simple inequalities that relate item weights to item costs. We present an algorithm for this special case with time complexity linear in the number of items.
+Keywords: Knapsack; Combinatorial optimization; Integer programming; Polynomial time algorithm; Computational complexity

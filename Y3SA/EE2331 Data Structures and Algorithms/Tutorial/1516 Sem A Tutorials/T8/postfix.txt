@@ -1,0 +1,9 @@
+A
+AB+
+AB*CD/+
+AB/C-D*E+
+ABCDE+-*/
+AB$C*D-EF/GH+/+
+DEAB*C$F+/+
+ABC+*D-EFG+-/
+

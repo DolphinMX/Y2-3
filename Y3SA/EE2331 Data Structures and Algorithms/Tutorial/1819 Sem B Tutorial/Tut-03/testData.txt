@@ -1,0 +1,50 @@
+Java is a general purpose programming language. It has features to support programming based on the
+object-oriented, procedural, and functional paradigms. What is meant is that the Java language has features 
+that support the object-oriented paradigm. You often read a phrase like "Java is an object-oriented programming language". 
+A programming language is not object-oriented. It is the paradigm that is object-oriented, and a programming
+language may have features that make it easy to implement the object-oriented paradigm. Sometimes programmers
+have misconceptions that all programs written in Java are always object-oriented. Java also has features that support
+the procedural and functional paradigms. You can write a program in Java that is a 100 percent procedural program without
+an iota of object-orientedness in it. The initial version of the Java platform was released by Sun Microsystems 
+(part of Oracle Corporation since January 2010) in 1995. Development of the Java programming language was started 
+in 1991. Initially, the language was called Oak and it was meant to be used in set-top boxes for televisions.
+Soon after its release, Java became a very popular programming language. One of the most important features
+for its popularity was its "write once, run anywhere" (WORA) feature. This feature lets you write a Java program
+once and run it on any platform. For example, you can write and compile a Java program on UNIX and run it on
+Microsoft Windows, Macintosh, or UNIX machine without any modifications to the source code. WORA is achieved
+by compiling a Java program into an intermediate language called bytecode. The format of bytecode is platformindependent.
+A virtual machine, called the Java Virtual Machine (JVM), is used to run the bytecode on each platform.
+Note that JVM is a program implemented in software. It is not a physical machine and this is the reason it is called a
+"virtual" machine. The job of a JVM is to transform the bytecode into executable code according to the platform it is
+running on. This feature makes Java programs platform-independent. That is, the same Java program can be run on
+multiple platforms without any modifications. If you were a C/C++ programmer, Java would provide
+simplicity for you in its learning and use over the C/C++ experience you had. Java retained most of the syntax of C/C++,
+which was helpful for C/C++ programmers trying to learn this new language. Even better, it excluded some of the most
+confusing and hard-to-use-correctly features (though powerful) of C++. For example, Java does not have pointers and
+multiple inheritance, which are present in C++.
+Robustness of a program refers to its ability to handle unexpected situations reasonably. The unexpected
+situation in a program is also known as an error. Java provides robustness by providing many features for error
+checking at different points during a program's lifetime. The following are three different types of errors that may
+occur in a Java program : Compile-time error, Runtime error, and Logic error.
+Compile-time errors are also known as syntax errors. They are caused by incorrect use of the Java language
+syntax. Compile-time errors are detected by the Java compiler. A program with a compile-time error does not compile
+into bytecode until the errors are corrected. Missing a semicolon at the end of a statement, assigning a floating-point
+value to a variable of integer type, etc. are examples of compile-time errors.
+Runtime errors occur when a Java program is run. This kind of error is not detected by the compiler because
+a compiler does not have all of the runtime information available to it. Java is a strongly typed languages and it has
+a robust type checking at compile-time as well as runtime. Java provides a neat exception handling mechanism to
+handle runtime errors. When a runtime error occurs in a Java program, the JVM throws an exception, which the
+program may catch and deal with. For example, dividing an integer by zero generates a runtime error. Java
+avoids critical runtime errors, such as memory overrun and memory leaks, by providing a built-in mechanism for
+automatic memory allocation and deallocation. The feature of automatic memory deallocation is known as garbage collection.
+Logic errors are the most critical errors in a program, and they are hard to find. They are introduced by the
+programmer by implementing the functional requirement incorrectly. This kind of error cannot be detected by a Java
+compiler or Java runtime. They are detected by application testers or users when they compare the actual behavior of
+a program with its expected behavior. Sometimes a few logic errors can sneak into the production environment and
+they go unnoticed even after the application is decommissioned.
+An error in a program is known as a bug. The process of finding and fixing bugs in a program is known as
+debugging. All modern integrated development environments (IDEs) such as NetBeans, Eclipse, JDeveloper, JBuilder,
+etc, provide programmers with a tool called a debugger, which lets them run the program step-by-step and inspect the
+program's state at every step to detect the bug. Debugging is a reality of programmer's daily activities. If you want to
+be a good programmer, you must learn and be good at using the debuggers that come with the development tools that
+you use to develop your Java programs.

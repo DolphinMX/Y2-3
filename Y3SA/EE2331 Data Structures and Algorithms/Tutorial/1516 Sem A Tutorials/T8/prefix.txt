@@ -1,0 +1,8 @@
+A
++AB
++*AB/CD
++*-/ABCDE
+/A*B-C+DE
++-*$ABCD//EF+GH
++D/E+$*ABCF
+/-*A+BCD-E+FG

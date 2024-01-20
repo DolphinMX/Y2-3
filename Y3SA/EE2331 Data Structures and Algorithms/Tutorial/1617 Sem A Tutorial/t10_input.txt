@@ -1,0 +1,88 @@
+7
+2
+2 1
+7
+7 6 5 4 3 2 1
+7
+7 6 5 4 3 -1 1
+7
+7 6 5 4 -1 2 -1
+3
+3 -1 1
+3
+1 2 3
+5
+5 4 3 2 5
+
+================================================================================
+
+Input:
+The first line of input contains an integer T denoting the number of test cases.
+The first line of each test case contains an integer N, which is the length of an input array.
+The second line of each test case contains N integers separated with a space which are the inputs for the array.
+
+Output:
+Case 0 ----------------------------------------
+
+(2)
+     (1)
+
+It's a max-heap!
+
+Case 1 ----------------------------------------
+
+           (1)
+     (5)
+           (2)
+(7)
+           (3)
+     (6)
+           (4)
+
+It's a max-heap!
+
+Case 2 ----------------------------------------
+
+           (1)
+     (5)
+(7)
+           (3)
+     (6)
+           (4)
+
+It's NOT a max-heap!
+
+Case 3 ----------------------------------------
+
+     (5)
+           (2)
+(7)
+     (6)
+           (4)
+
+It's NOT a max-heap!
+
+Case 4 ----------------------------------------
+
+     (1)
+(3)
+
+It's NOT a max-heap!
+
+Case 5 ----------------------------------------
+
+     (3)
+(1)
+     (2)
+
+It's NOT a max-heap!
+
+Case 6 ----------------------------------------
+
+     (3)
+(5)
+           (5)
+     (4)
+           (2)
+
+It's NOT a max-heap!
