@@ -1,0 +1,48 @@
+// Shape.java
+public class Shape {
+    // Method to calculate the perimeter
+    public double getPerimeter() {
+        return 0; // Default implementation for subclasses to override
+    }
+
+    // Method to calculate the area
+    public double getArea() {
+        return 0; // Default implementation for subclasses to override
+    }
+}
+
+// Circle.java
+public class Circle extends Shape {
+    private double radius;
+
+    // Constructor
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    // Override the getPerimeter() method to calculate the perimeter of a circle
+    @Override
+    public double getPerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    // Override the getArea() method to calculate the area of a circle
+    @Override
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        // Create a Circle object with radius 5
+        Circle circle = new Circle(5);
+
+        // Calculate and print the perimeter of the circle
+        System.out.println("Perimeter of the circle: " + circle.getPerimeter());
+
+        // Calculate and print the area of the circle
+        System.out.println("Area of the circle: " + circle.getArea());
+    }
+}
